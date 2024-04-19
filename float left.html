@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>CSS Float Demo</title>
+        <style>
+            div{
+                display: block;
+                width: 40%;
+    
+            }
+            .secondDiv{
+                margin-top: 0px;
+                margin-left: 60%;
+            }
+            img{
+                width: 200px;
+                height: 200px;
+               
+            }
+            #unicorn{
+                float: left;
+                padding-right: 20px;
+               
+            }
+            #pocketFM{
+                float:right;
+                padding-left: 20px;
+            }
+            #firstP{
+                text-align: justify;
+                background-color: rgb(255, 127, 144);
+            }
+            #secondP{
+                text-align: justify;
+                background-color: lightgreen;
+            }
+            
+        </style>
+        
+    </head>
+    <body>
+        <div>
+        <img id="unicorn" src="/unicorn.png" alt="Unicorn Pencil Draw" />
+        <p id="firstP"> India had 112 unicorns at the end of the last fiscal year 
+            with a collective valuation of over $350 billion, according 
+            to Invest India data, reports businessline. Only two startups
+             joined the unicorn club in 2023, compared to 22 in 2022. 
+             Indians have also founded the highest number of offshore unicorns, 
+             reports The Economic Times, citing Hurun Research Institute's Global 
+             Unicorn Index 2024.
+        </p>
+    </div>
+    <hr />
+    <div class="secondDiv">
+        <img id="pocketFM" src="/pocketFM.png" alt="Man listening audio" />
+        <p id="secondP">"The audio series phenomenon is currently ablaze," 
+            writes Vineet Singh, Vice President, Brand and 
+            Communications at Pocket FM in a post on LinkedIn. 
+            He adds that in a world where videos usually steal
+             the spotlight, hitting the big ₹100 crore mark — 
+             which the audio platform did with two of its audio 
+            series — is a significant benchmark that symbolises
+             massive success for films in India.
+        </p>
+    </div>
+    </body>
+</html>
